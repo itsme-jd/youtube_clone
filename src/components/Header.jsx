@@ -10,7 +10,6 @@ import { RiVideoAddLine } from "react-icons/ri";
 import { FiBell } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
 
-import { Context } from "../context/contextApi";
 import Loader from "../shared/loader";
 import context from "react-bootstrap/esm/AccordionContext";
 
@@ -94,7 +93,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-                   <img src="../images/Jayesh.png" alt="My Image " />
+                   <img src="../images/Jayesh.png" alt=" " />
 
                 </div>
             </div>
